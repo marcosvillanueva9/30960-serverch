@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-
+// estamos en heroku
 app.use(express.static('public'))
 
 app.get('/mensaje', (req,res) => {
